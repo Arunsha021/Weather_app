@@ -10,12 +10,23 @@ body{
  background-repeat: no-repeat;
  background-size:cover;
 }
+    .heading{
+       font-size:4.5rem;
+       text-align: center;
+       font-weight: bold;
+       margin-top: 1rem;
+       padding: 10px;
+       
+       
+
+    }
+   
   .card{
     /* width:90%; */
-    max-width:450px;
+    max-width:550px;
     background-color:black;
     color:#ffff;
-    margin:100px auto 0;
+    margin:25px auto 0;
     border-radius:15px;
     padding:70px 40px;
     text-align: center;
@@ -32,11 +43,11 @@ body{
     outline:0;
     background:#ebfffc;
     color: #555;
-    padding: 10px 25px;
+    padding: 10px 45px;
     height: 50px;
     border-radius:20px;
     margin-right:16px;
-    font-size:18px;
+    font-size:22px;
   }
      
  .search button{
@@ -101,6 +112,14 @@ body{
         display:none;
        }
 
+      @media screen and (min-width: 572px){
+         
+         .card{
+          max-width:572px;
+
+         }
+
+      }  
 
 
 
